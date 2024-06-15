@@ -1,0 +1,12 @@
+name: Basic Workflow
+on: workflow_dispatch
+jobs:
+  print-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Step 1
+        run: echo "Welcome to GitHub actions"
+      - name: step 2
+        run: |
+          echo "Hello"
+          echo "Bye"
